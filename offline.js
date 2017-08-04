@@ -231,7 +231,7 @@
   var RETRY_TEMPLATE, TEMPLATE, _onreadystatechange, addClass, content, createFromHTML, el, flashClass, flashTimeouts, init, removeClass, render, roundTime;
   if (!window.Offline) throw new Error("Offline UI brought in without offline.js");
   TEMPLATE = '<div class="offline-ui"><div class="offline-ui-content"></div></div>', 
-  RETRY_TEMPLATE = '<a href name="offline-ui-retry" id="offline-ui-retry" class="offline-ui-retry"></a>', 
+  RETRY_TEMPLATE = '<a href alt="offline-ui-retry" id="offline-ui-retry" class="offline-ui-retry"></a>', 
   createFromHTML = function(html) {
     var el;
     return el = document.createElement("div"), el.innerHTML = html, el.children[0];
