@@ -7,7 +7,7 @@
 
   TEMPLATE = '<div class="offline-ui"><div class="offline-ui-content"></div></div>';
 
-  RETRY_TEMPLATE = '<a href class="offline-ui-retry"></a>';
+  RETRY_TEMPLATE = '<a href id="offline-ui-retry" class="offline-ui-retry"></a>';
 
   createFromHTML = function(html) {
     var el;
